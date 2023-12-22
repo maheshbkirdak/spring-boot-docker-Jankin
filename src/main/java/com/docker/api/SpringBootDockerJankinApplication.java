@@ -13,6 +13,11 @@ public class SpringBootDockerJankinApplication {
 	public String getString() {
 		return "Welcome to Docker 30!!";
 	}
+	
+	@GetMapping("/msg2")
+	public String getString2() {
+		return "Welcome to Docker 38!!";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDockerJankinApplication.class, args);
